@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+
+<html lang="it">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div id="esempio1"></div>
+    <div id="esempio2"></div>
+    <div id="esempio3"></div>
+    <div id="esempio4"></div>
+    <div id="esempio5"></div>
+
+<!--javascript-->
+<script>
+    var numero1 = 5;
+    var numero2 = numero1 * 2;
+    var somma = numero1 + numero2;
+
+
+    var stringa1 = "Cavallo";
+    var valoreStringa1 = stringa1.length;
+
+    var apeVola = true;
+    var asinoVola = false;
+    var entrambiVolano = apeVola && asinoVola;
+
+    var valorenumerico = 10;
+    var valorestringa = "90";
+    var concatenazione = valorenumerico + valorestringa;
+
+    var num1 = 36;
+    var num2 = 29
+    var tempnum1 = num2;
+    var tempnum2 = num1;
+
+
+
+    document.getElementById("esempio1").innerHTML =
+        "Primo numero: " + numero1 + "</br>" +
+        "Secondo numero: " + numero2 + "</br>" +
+        "Somma numeri: " + somma + "<hr>";
+
+    document.getElementById("esempio2").innerHTML =
+        "La lunghezza della parola " + stringa1 + " è di : " + valoreStringa1 + " caratteri." + "<hr>";
+
+    document.getElementById("esempio3").innerHTML =
+        "L'ape vola?: " + apeVola + "</br>" +
+        "L'asino vola?: " + asinoVola + "</br>" +
+        "Entrambi volano?: " + entrambiVolano + "</br>" +
+        "<hr>";
+
+    document.getElementById("esempio4").innerHTML =
+        "Valore numerico: " + valorenumerico + "</br>" +
+        "Valore stringa: " + valorestringa + "</br>" +
+        "Valore concatenato: " + concatenazione + "</br>" +
+        "<hr>";
+
+    document.getElementById("esempio5").innerHTML =
+        "Primo valore numerico: " + num1 + "</br>" +
+        "Secondo valore numerico: " + num2 + "</br>" +
+        "Scambio !!!" + "</br>" +
+        "Primo valore numerico: " + tempnum1 + "</br>" +
+        "Secondo valore numerico: " + tempnum2 + "</br>" +
+        "<hr>";
+
+</script>
+
+</body>
+</html>
